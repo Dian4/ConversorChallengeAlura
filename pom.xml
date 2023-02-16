@@ -22,4 +22,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.4.0</version>
+        <configuration>
+          <mainClass>com.starblackdian.conversoralura.views.VentanaPrincipal</mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
